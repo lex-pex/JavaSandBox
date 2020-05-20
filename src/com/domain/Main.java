@@ -1,15 +1,14 @@
 package com.domain;
 
-import box.classes.ClassExample;
-
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println( myMethod() );
+    }
 
-        ClassExample classExample;
-        classExample = new ClassExample();
-        classExample.info();
-
+    public static String myMethod() {
+        String message = "This is myMethod();";
+        return message;
     }
 
 }
