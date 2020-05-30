@@ -1,15 +1,17 @@
 package com.domain;
 
+//import box.methods.MyMethod;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println( myMethod() );
-    }
 
-    public static String myMethod() {
-        String message = "This is myMethod();";
-        return message;
+        System.out.println(
+                box.methods.MyMethod.myMethod(
+                "Hello, Java!",
+                555,
+                true)
+        );
     }
-
 }
 
