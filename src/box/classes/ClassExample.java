@@ -5,8 +5,6 @@ public class ClassExample {
     public int integer = 55;
     public String string = "SandBox Project";
 
-    public Rectangle rectangle = new Rectangle();
-
     public void info() {
         System.out.println(
                 "THIS IS THE CLASS_EXAMPLE"
@@ -14,6 +12,4 @@ public class ClassExample {
     }
 }
 
-class Rectangle {
 
-}

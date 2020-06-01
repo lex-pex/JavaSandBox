@@ -1,17 +1,11 @@
 package com.domain;
 
-//import box.methods.MyMethod;
+import box.constructor.Constructor;
 
 public class Main {
 
     public static void main(String[] args) {
-
-        System.out.println(
-                box.methods.MyMethod.myMethod(
-                "Hello, Java!",
-                555,
-                true)
-        );
+        new Constructor().info();
     }
 }
 
